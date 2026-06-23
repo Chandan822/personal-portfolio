@@ -1,0 +1,228 @@
+CHANDAN R
+AI & ML Engineer | Full Stack Developer | Cloud & DevOps Enthusiast
+
+B.Tech Computer Science & Engineering (AI & ML)
+PES University, Bangalore
+
+CGPA: 8.78
+
+GitHub: Chandan822
+LinkedIn: Chandan R
+
+About Me
+
+I am a Computer Science student specializing in Artificial Intelligence and Machine Learning with strong experience in Full Stack Development, Cloud Engineering, DevOps, and AI-powered applications.
+
+I enjoy building scalable software systems, autonomous AI agents, intelligent automation platforms, and modern web applications. My interests span across Generative AI, Agentic Systems, Backend Engineering, Cloud Infrastructure, and Software Architecture.
+
+Core Skills
+Programming Languages
+Python
+Java
+JavaScript
+C
+C++
+Frontend Development
+React.js
+Next.js
+HTML5
+CSS3
+Tailwind CSS
+JavaFX
+Backend Development
+Node.js
+Express.js
+Spring Boot
+REST APIs
+WebSockets
+Databases
+PostgreSQL
+MySQL
+MongoDB
+Prisma ORM
+Drizzle ORM
+AI & Machine Learning
+Machine Learning
+Generative AI
+OpenAI Agents SDK
+Gemini API
+RAG Systems
+Prompt Engineering
+NLP
+LLM Evaluation
+Cloud & DevOps
+Docker
+Kubernetes
+Terraform
+Helm
+FluxCD
+Jenkins
+CI/CD Pipelines
+GitOps
+AWS EKS
+Software Engineering
+Data Structures & Algorithms
+OOP
+SOLID Principles
+GRASP Patterns
+Design Patterns
+System Design
+API Design
+Tools & Technologies
+Git
+GitHub
+Linux
+Kafka
+Maven
+Gradle
+Postman
+Featured Projects
+AI Rewards Concierge
+Autonomous Competitive Intelligence Agent
+
+Built an AI-powered research platform capable of analyzing loyalty programs and generating source-attributed competitive intelligence reports.
+
+Key Features
+Multi-agent architecture
+Real-time web research
+Source verification engine
+Loyalty program comparison
+Structured intelligence reports
+OpenAI Agents SDK integration
+Gemini model support
+Tech Stack
+
+OpenAI Agents SDK, Gemini, Fastify, Zod, Node.js
+
+WellNet Healthcare Management Platform
+
+Comprehensive healthcare management system enabling doctors and patients to manage appointments, treatments, and medical records.
+
+Key Features
+Appointment scheduling
+Patient record management
+Disease outbreak monitoring
+Email notifications
+Medication reminders
+Analytics dashboard
+Achievements
+CI/CD implementation
+86%+ test coverage
+Automated deployment pipeline
+Tech Stack
+
+MongoDB, Express.js, React.js, Node.js, GitHub Actions
+
+Social Feed System
+
+Full-stack social media platform with secure authentication and database automation.
+
+Key Features
+JWT authentication
+Secure password encryption
+REST APIs
+Database triggers and procedures
+Responsive UI
+User feed management
+Tech Stack
+
+React.js, Express.js, MySQL, JWT, Tailwind CSS
+
+Code Coach AI
+
+AI-powered coding assistant designed to provide personalized coding guidance and learning support.
+
+Key Features
+AI chat interface
+User authentication
+Code snippet management
+Session tracking
+Learning progress monitoring
+Responsive dashboard
+Tech Stack
+
+MongoDB, Express.js, React.js, Node.js
+
+Watch Party Desktop Application
+
+Desktop application allowing users to synchronize video streaming sessions with friends.
+
+Key Features
+Real-time synchronized playback
+Room management
+WebSocket communication
+Premium subscription model
+Chat functionality
+Voice messaging support
+Tech Stack
+
+Java, Spring Boot, JavaFX, PostgreSQL, WebSockets
+
+Cloud Environment Provisioner
+
+Infrastructure automation platform capable of provisioning cloud environments with a single configuration.
+
+Key Features
+Automated infrastructure deployment
+Kubernetes cluster provisioning
+GitOps workflows
+CI/CD automation
+Infrastructure as Code
+Tech Stack
+
+Terraform, Kubernetes, FluxCD, Helm, Jenkins, AWS EKS
+
+Education
+PES University
+
+Bachelor of Technology
+Computer Science & Engineering (AI & ML)
+
+CGPA: 8.78
+
+Achievements
+CNR Rao Scholarship Recipient
+DAC Scholarship Recipient
+Consistent Academic Excellence
+Strong Foundation in AI & Software Engineering
+Coursework
+Object-Oriented Programming
+Database Management Systems
+Advanced Data Structures & Algorithms
+Operating Systems
+Computer Networks
+Artificial Intelligence
+Machine Learning
+Areas of Interest
+Generative AI
+Agentic AI Systems
+Machine Learning
+Full Stack Development
+Cloud Engineering
+DevOps
+Distributed Systems
+Software Architecture
+Intelligent Automation
+Portfolio Sections Recommended
+Hero Section
+About Me
+Technical Skills
+Featured Projects
+Experience & Achievements
+Education
+Certifications
+GitHub Activity
+Contact Section
+
+For a modern 2026-style portfolio, I would recommend:
+
+Dark theme
+Glassmorphism effects
+Animated skill cards
+Project showcase with screenshots
+GitHub contribution graph
+Interactive AI-themed background
+Resume download button
+Contact form with email integration
+
+This would position you strongly for AI Engineer, Software Engineer, Full Stack Developer, Backend Developer, Cloud Engineer, and GenAI Engineer role
