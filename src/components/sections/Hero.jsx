@@ -77,7 +77,7 @@ export const Hero = () => {
               <a href="https://github.com/Chandan822" target="_blank" rel="noreferrer" className="p-3 glass rounded-full hover:text-primary transition-colors">
                 <GithubIcon size={24} />
               </a>
-              <a href="https://linkedin.com/in/Chandan R" target="_blank" rel="noreferrer" className="p-3 glass rounded-full hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/chandan-r-566ab5347/" target="_blank" rel="noreferrer" className="p-3 glass rounded-full hover:text-primary transition-colors">
                 <LinkedinIcon size={24} />
               </a>
             </div>

@@ -38,7 +38,7 @@ export const Contact = () => {
                 </div>
               </a>
 
-              <a href="https://linkedin.com/in/Chandan R" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group">
+              <a href="https://www.linkedin.com/in/chandan-r-566ab5347/" target="_blank" rel="noreferrer" className="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group">
                 <div className="p-3 bg-surface rounded-xl group-hover:bg-primary/20 transition-colors">
                   <LinkedinIcon className="w-6 h-6" />
                 </div>
