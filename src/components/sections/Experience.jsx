@@ -25,7 +25,7 @@ export const Experience = () => {
                 <div className="text-slate-300 mb-4 flex items-center gap-2">
                   <span className="font-semibold text-white">PES University</span>
                   <span className="w-1.5 h-1.5 rounded-full bg-slate-500 mx-2" />
-                  <span className="text-fuchsia-400 font-mono font-bold">CGPA: 8.78</span>
+                  <span className="text-fuchsia-400 font-mono font-bold">CGPA: 8.79</span>
                 </div>
                 
                 <div className="mt-6">

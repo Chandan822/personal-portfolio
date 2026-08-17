@@ -22,7 +22,7 @@ export const About = () => {
             <GlassCard className="h-full border-primary/20 bg-gradient-to-br from-surface to-primary/5">
               <h3 className="text-2xl font-bold mb-4 text-white">Who I Am</h3>
               <p className="text-slate-300 leading-relaxed mb-6">
-                I am a Computer Science student specializing in Artificial Intelligence and Machine Learning at PES University, Bangalore (CGPA: 8.78). 
+                I am a Computer Science student specializing in Artificial Intelligence and Machine Learning at PES University, Bangalore (CGPA: 8.79). 
               </p>
               <p className="text-slate-300 leading-relaxed mb-6">
                 My strong foundation in Full Stack Development, Cloud Engineering, DevOps, and AI-powered applications allows me to build comprehensive, end-to-end solutions. I enjoy building scalable software systems, autonomous AI agents, and intelligent automation platforms.
@@ -43,7 +43,7 @@ export const About = () => {
             {[
               { label: 'Degree', value: 'B.Tech CS (AI & ML)' },
               { label: 'University', value: 'PES University' },
-              { label: 'CGPA', value: '8.78' },
+              { label: 'CGPA', value: '8.79' },
               { label: 'Focus', value: 'Agentic AI Systems' }
             ].map((stat, index) => (
               <GlassCard key={index} className="text-center flex flex-col justify-center items-center py-8">

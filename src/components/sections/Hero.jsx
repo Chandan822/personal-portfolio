@@ -70,7 +70,7 @@ export const Hero = () => {
             <Button onClick={() => window.location.href = '#projects'}>
               View My Work
             </Button>
-            <Button variant="outline" onClick={() => window.open('/resume.pdf', '_blank')}>
+            <Button variant="outline" onClick={() => window.open('/ChandanR_Resume.pdf', '_blank')}>
               <Download size={20} /> Download Resume
             </Button>
             <div className="flex items-center gap-4 ml-0 sm:ml-4 mt-4 sm:mt-0">

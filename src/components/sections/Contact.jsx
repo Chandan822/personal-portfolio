@@ -6,6 +6,15 @@ import { Mail, Send } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../ui/Icons';
 
 export const Contact = () => {
+  const [formData, setFormData] = React.useState({ name: '', email: '', message: '' });
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name || 'Visitor'}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+    window.location.href = `mailto:chandan005ae@gmail.com?subject=${subject}&body=${body}`;
+  };
+
   return (
     <section className="py-24 relative" id="contact">
       <div className="container mx-auto px-6 max-w-5xl">
@@ -18,13 +27,13 @@ export const Contact = () => {
           <GlassCard>
             <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
             <div className="space-y-6">
-              <a href="#" className="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group">
+              <a href="mailto:chandan005ae@gmail.com" className="flex items-center gap-4 text-slate-300 hover:text-primary transition-colors group">
                 <div className="p-3 bg-surface rounded-xl group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-sm text-slate-400 mb-1">Email</p>
-                  <p className="font-medium">chandan@example.com</p>
+                  <p className="font-medium">chandan005ae@gmail.com</p>
                 </div>
               </a>
               
@@ -51,12 +60,15 @@ export const Contact = () => {
           </GlassCard>
 
           <GlassCard>
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-4" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-slate-400 mb-1">Name</label>
                 <input 
                   type="text" 
                   id="name" 
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  required
                   className="w-full bg-surface border border-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   placeholder="John Doe"
                 />
@@ -66,6 +78,9 @@ export const Contact = () => {
                 <input 
                   type="email" 
                   id="email" 
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  required
                   className="w-full bg-surface border border-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors"
                   placeholder="john@example.com"
                 />
@@ -75,6 +90,9 @@ export const Contact = () => {
                 <textarea 
                   id="message" 
                   rows={4}
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  required
                   className="w-full bg-surface border border-border rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-colors resize-none"
                   placeholder="Your message here..."
                 />
